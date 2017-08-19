@@ -1,0 +1,2 @@
+android.app.Application
+com.uniproject.ergo.Ergo_Android_App

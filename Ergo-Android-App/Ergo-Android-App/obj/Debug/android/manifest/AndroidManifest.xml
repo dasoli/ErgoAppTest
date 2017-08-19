@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.uniproject.ergo.Ergo_Android_App">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:icon="@mipmap/icon" android:label="@string/app_name" android:name="android.app.Application" android:debuggable="true">
+    <activity android:icon="@mipmap/icon" android:label="Ergo-Android-App" android:name="md5efa98a4130d8d975e8bf6d17ad77a6c9.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="ContactActivity" android:name="md51e5729648a463bc285cc0e1fb440b838.ContactActivity" />
+    <activity android:label="LoginActivity" android:name="md51e5729648a463bc285cc0e1fb440b838.LoginActivity" />
+    <activity android:label="ContactAdd" android:name="md51e5729648a463bc285cc0e1fb440b838.ContactAdd" />
+    <activity android:label="ContactDetailActivity" android:name="md51e5729648a463bc285cc0e1fb440b838.ContactDetailActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.uniproject.ergo.Ergo_Android_App.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.uniproject.ergo.Ergo_Android_App" />
+      </intent-filter>
+    </receiver>
+  </application>
+</manifest>

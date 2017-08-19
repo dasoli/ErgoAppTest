@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{BB548383-7C0C-4BAF-8573-EE45F385255F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ergo-Android-App/Activities/ContactAdd.cs">
+    <Files>
+      <File FileName="Ergo-Android-App/Activities/MainActivity.cs" Line="1" Column="19" />
+      <File FileName="packages/xamstore-xamarin.mobile.0.7.1/README.txt" Line="1" Column="1" />
+      <File FileName="Ergo-Android-App/packages.config" Line="1" Column="1" />
+      <File FileName="Ergo-Android-App/Activities/LoginActivity.cs" Line="33" Column="6" />
+      <File FileName="Ergo-Android-App/Properties/AndroidManifest.xml" Line="1" Column="1" />
+      <File FileName="Ergo-Android-App/Activities/ContactActivity.cs" Line="46" Column="91" />
+      <File FileName="Ergo-Android-App/Activities/ContactAdd.cs" Line="66" Column="47" />
+      <File FileName="Ergo-Android-App/Dataservices/ContactDataService.cs" Line="28" Column="13" />
+      <File FileName="Ergo-Android-App/Dataservices/ContactModel.cs" Line="5" Column="6" />
+      <File FileName="Ergo-Android-App/Resources/Resource.designer.cs" Line="1" Column="1" />
+      <File FileName="Ergo-Android-App/Activities/ContactDetailActivity.cs" Line="22" Column="6" />
+      <File FileName="Ergo-Android-App/Dataservices/AppDataStore.cs" Line="6" Column="94" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ergo-Android-App" expanded="True">
+            <Node name="Ergo-Android-App" expanded="True">
+              <Node name="Activities" expanded="True">
+                <Node name="ContactAdd.cs" selected="True" />
+              </Node>
+              <Node name="Dataservices" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Ergo-Android-App AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>
