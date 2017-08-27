@@ -17,11 +17,11 @@ namespace ErgoAndroidApp.Activities
         {
             base.OnCreate(savedInstanceState);
             SetContentView(Resource.Layout.Contacts);
-            ContactDataService.init();
+            var database = AppDataStore.Database;
 
             ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, 
                                                                     Android.Resource.Layout.SimpleListItem1, 
-                                                                    ContactDataService.GetContactsAsStringList());
+                                                                    database.ConvertListToStringNames(database.GetItemsAsync().Result));
             
             this.contactsList = FindViewById<ListView>(Resource.Id.contact_list);
 

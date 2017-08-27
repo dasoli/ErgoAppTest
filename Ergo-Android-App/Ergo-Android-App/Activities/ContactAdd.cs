@@ -9,6 +9,8 @@ using Android.Widget;
 using ErgoAndroidApp.Dataservices;
 using Newtonsoft.Json.Linq;
 using Java.Lang;
+using ErgoAndroidApp.NetworkServices;
+using System.Json;
 
 namespace ErgoAndroidApp.Activities
 {
@@ -31,7 +33,9 @@ namespace ErgoAndroidApp.Activities
                 string city = FindViewById<EditText>(Resource.Id.contacts_input_city).Text;
                 string zip = FindViewById<EditText>(Resource.Id.contacts_input_zip).Text;
 
-                ContactDataService.AddContact(new ContactModel(name, street, housenumber, city, zip));
+                ContactModel contactModel = ContactModel.CreateContact(name, street, housenumber, city, zip);
+
+                ContactDataService.AddContact();
             };
 
             // geocode button
@@ -42,33 +46,14 @@ namespace ErgoAndroidApp.Activities
 				string city = FindViewById<EditText>(Resource.Id.contacts_input_city).Text;
 				string zip = FindViewById<EditText>(Resource.Id.contacts_input_zip).Text;
 
-                string completeStreet = string.Format("{0}+{1}",street, housenumber);
+                JsonValue googleObject = GoogleNetworkService.TransformAdressToCoordinatesViaGoogle(ContactModel.CreateContact("tester", street, housenumber, city, zip)).Result;
 
-                string geocodeUrl = string.Format("https://maps.googleapis.com/maps/api/geocode/json?address={0}+{1}+{2},{3}&key={4}",
-                                                  completeStreet, city, zip, "germany", AppDataStore.googleGeoCodeApiKey);
+                if(googleObject != null) {
+					//Console.WriteLine(responseFromServer);
+					var location = googleObject["results"][0]["geometry"]["location"];
+					FindViewById<TextView>(Resource.Id.contacts_add_geocode_dates).Text = string.Format("lat:{0} lon:{1}", location["lat"], location["lng"]);
+                }
 
-				// Create a request for the URL. 
-				WebRequest request = WebRequest.Create(geocodeUrl);
-				// If required by the server, set the credentials.
-				request.Credentials = CredentialCache.DefaultCredentials;
-				// Get the response.
-				WebResponse response = request.GetResponse();
-				// Display the status.
-				Console.WriteLine(((HttpWebResponse)response).StatusDescription);
-				// Get the stream containing content returned by the server.
-				Stream dataStream = response.GetResponseStream();
-				// Open the stream using a StreamReader for easy access.
-				StreamReader reader = new StreamReader(dataStream);
-                // Read the content.
-                // Display the content.
-                var returnString = reader.ReadToEnd();
-                var code = JObject.Parse(returnString);
-                //Console.WriteLine(responseFromServer);
-                var location = code["results"][0]["geometry"]["location"];
-                FindViewById<TextView>(Resource.Id.contacts_add_geocode_dates).Text = string.Format("lat:{0} lon:{1}",location["lat"],location["lng"]);
-				// Clean up the streams and the response.
-				reader.Close();
-				response.Close();
 			};
 
         }

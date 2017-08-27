@@ -1,26 +1,36 @@
 ﻿using System;
+using SQLite;
+
 namespace ErgoAndroidApp
 {
     public class ContactModel
     {
-        public ContactModel(string _name, 
-                            string _street,
-                            string _housenumber,
-                            string _city, 
-                            string _zip)
+        public static ContactModel CreateContact(string _name,
+								    string _street,
+								    string _housenumber,
+								    string _city,
+                                    string _zip) 
         {
-            this.name = _name;
-            this.street = _street;
-            this.housenumber = _housenumber;
-            this.city = _city;
-            this.zip = _zip;
+            ContactModel model = new ContactModel();
+            model.Name = _name;
+            model.Street = _street;
+            model.Housenumber = _housenumber;
+            model.City = _city;
+            model.Zip = _zip;
+
+            return model;
         }
 
-        public string name;
-        public string street;
-        public string housenumber;
-        public string city;
-        public string zip;
-
+		[PrimaryKey, AutoIncrement]
+		public int ID { get; set; }
+		public string Name { get; set; }
+		public string Housenumber { get; set; }
+        public string Street { get; set; }
+        public string City { get; set; }
+        public string Zip { get; set; }
+        public string lat { get; set; }
+        public string lon { get; set; }
+        public float Distance { get; set; }
     }
 }
+

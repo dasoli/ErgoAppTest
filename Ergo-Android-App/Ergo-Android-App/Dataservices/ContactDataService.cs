@@ -23,7 +23,7 @@ namespace ErgoAndroidApp.Dataservices
 		{
             List<string> contactNames = new List<string>();
             foreach(ContactModel contact in ContactDataService.contacts) {
-                contactNames.Add(contact.name);
+                contactNames.Add(contact.Name);
             }
 
             return contactNames;
@@ -39,7 +39,7 @@ namespace ErgoAndroidApp.Dataservices
                 string housenumber = ""+i;
                 string zip = "99425";
 
-                ContactModel contact = new ContactModel(name, 
+                ContactModel contact = ContactModel.CreateContact(name, 
                                                         street, 
                                                         city, 
                                                         housenumber, 
@@ -51,7 +51,7 @@ namespace ErgoAndroidApp.Dataservices
 
         public static void AddContact(ContactModel _contact) {
             ContactDataService.contacts.Add(_contact);
-            Console.WriteLine("added conctact: {0}", _contact.name);
+            Console.WriteLine("added conctact: {0}", _contact.Name);
             // save
    //         ContactDataService.contacts.ToArray().ToString();
 			//ISharedPreferences prefs = Application.Context.GetSharedPreferences("default", FileCreationMode.Private);
