@@ -14,7 +14,7 @@ namespace ErgoAndroidApp.Dataservices
 			{
 				if (database == null)
 				{
-                    database = new ContactModelDatabase(Filehelper.GetLocalFilePath("TodoSQLite.db3"));
+                    database = new ContactModelDatabase(Filehelper.GetLocalFilePath("Ergo.db3"));
 				}
 				return database;
 			}

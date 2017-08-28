@@ -28,7 +28,7 @@ namespace ErgoAndroidApp.Activities
                 //if (FindViewById<EditText>(Resource.Id.input_password).Text == this.defaultPassword
                     //&& FindViewById<EditText>(Resource.Id.input_username).Text == this.defaultUserName) {
 
-                    StartActivity(typeof(ContactActivity));
+                StartActivity(typeof(MenuActivity));
                 //}
 			};
 

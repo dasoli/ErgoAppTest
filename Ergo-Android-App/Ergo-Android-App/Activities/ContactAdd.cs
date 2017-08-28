@@ -35,7 +35,9 @@ namespace ErgoAndroidApp.Activities
 
                 ContactModel contactModel = ContactModel.CreateContact(name, street, housenumber, city, zip);
 
-                ContactDataService.AddContact();
+                AppDataStore.Database.SaveItemAsync(contactModel).Wait();
+                this.Finish();
+
             };
 
             // geocode button

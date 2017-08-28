@@ -13,6 +13,7 @@ namespace ErgoAndroidApp.Dataservices
 		{
 			database = new SQLiteAsyncConnection(dbPath);
 			database.CreateTableAsync<ContactModel>().Wait();
+            database.CreateTableAsync<OrderModel>().Wait();
             this.InsertDemoContentAsync();
 		}
 
@@ -76,6 +77,35 @@ namespace ErgoAndroidApp.Dataservices
 		}
 
 		public Task<int> DeleteItemAsync(ContactModel item)
+		{
+			return database.DeleteAsync(item);
+		}
+
+		public Task<List<OrderModel>> GetOrdersAsync()
+		{
+			return database.Table<OrderModel>().ToListAsync();
+		}
+
+        // orders
+
+		public Task<OrderModel> GetOrderAsync(int id)
+		{
+			return database.Table<OrderModel>().Where(i => i.ID == id).FirstOrDefaultAsync();
+		}
+
+		public Task<int> SaveOrderAsync(OrderModel item)
+		{
+			if (item.ID != 0)
+			{
+				return database.UpdateAsync(item);
+			}
+			else
+			{
+				return database.InsertAsync(item);
+			}
+		}
+
+		public Task<int> DeleteOrderAsync(OrderModel item)
 		{
 			return database.DeleteAsync(item);
 		}

@@ -54,3 +54,7 @@
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/contactdetail.xml
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/R.cs.flag
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/uploadflags.txt
+/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/menu.xml
+/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/orderoverview.xml
+/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/orderdetail.xml
+/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/customerselect.xml

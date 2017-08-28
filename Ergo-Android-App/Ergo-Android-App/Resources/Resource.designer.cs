@@ -56,6 +56,9 @@ namespace ErgoAndroidApp
 			// aapt resource value: 0x7f050007
 			public const int button_create_contact = 2131034119;
 			
+			// aapt resource value: 0x7f050019
+			public const int chooseContactButton = 2131034137;
+			
 			// aapt resource value: 0x7f050009
 			public const int contact_detail_button_showMaps = 2131034121;
 			
@@ -64,6 +67,9 @@ namespace ErgoAndroidApp
 			
 			// aapt resource value: 0x7f05000e
 			public const int contact_list = 2131034126;
+			
+			// aapt resource value: 0x7f05000f
+			public const int contact_list_select = 2131034127;
 			
 			// aapt resource value: 0x7f050006
 			public const int contacts_add_geocode_dates = 2131034118;
@@ -86,20 +92,44 @@ namespace ErgoAndroidApp
 			// aapt resource value: 0x7f050004
 			public const int contacts_input_zip = 2131034116;
 			
+			// aapt resource value: 0x7f05001a
+			public const int customerCreateButton = 2131034138;
+			
+			// aapt resource value: 0x7f050018
+			public const int distanceFieldText = 2131034136;
+			
+			// aapt resource value: 0x7f050017
+			public const int editText1 = 2131034135;
+			
 			// aapt resource value: 0x7f05000a
 			public const int gridLayout1 = 2131034122;
 			
-			// aapt resource value: 0x7f050010
-			public const int input_password = 2131034128;
-			
-			// aapt resource value: 0x7f05000f
-			public const int input_username = 2131034127;
+			// aapt resource value: 0x7f05001b
+			public const int gridLayout2 = 2131034139;
 			
 			// aapt resource value: 0x7f050011
-			public const int login_button = 2131034129;
+			public const int input_password = 2131034129;
+			
+			// aapt resource value: 0x7f050010
+			public const int input_username = 2131034128;
+			
+			// aapt resource value: 0x7f050014
+			public const int linearLayout1 = 2131034132;
 			
 			// aapt resource value: 0x7f050012
-			public const int myButton = 2131034130;
+			public const int login_button = 2131034130;
+			
+			// aapt resource value: 0x7f050015
+			public const int menuContactsButton = 2131034133;
+			
+			// aapt resource value: 0x7f050016
+			public const int menuOrdersButton = 2131034134;
+			
+			// aapt resource value: 0x7f050013
+			public const int myButton = 2131034131;
+			
+			// aapt resource value: 0x7f05001c
+			public const int ordersCreateButton = 2131034140;
 			
 			static Id()
 			{
@@ -124,10 +154,22 @@ namespace ErgoAndroidApp
 			public const int Contacts = 2130903042;
 			
 			// aapt resource value: 0x7f030003
-			public const int Login = 2130903043;
+			public const int CustomerSelect = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int Main = 2130903044;
+			public const int Login = 2130903044;
+			
+			// aapt resource value: 0x7f030005
+			public const int Main = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int Menu = 2130903046;
+			
+			// aapt resource value: 0x7f030007
+			public const int OrderDetail = 2130903047;
+			
+			// aapt resource value: 0x7f030008
+			public const int OrderOverview = 2130903048;
 			
 			static Layout()
 			{

@@ -1,17 +1,24 @@
 ﻿<Properties StartupConfiguration="{BB548383-7C0C-4BAF-8573-EE45F385255F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ergo-Android-App/packages.config">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ergo-Android-App/Activities/ContactAdd.cs">
     <Files>
-      <File FileName="Ergo-Android-App/packages.config" Line="51" Column="35" />
-      <File FileName="Ergo-Android-App/Dataservices/ContactModel.cs" Line="31" Column="40" />
-      <File FileName="Ergo-Android-App/Activities/ContactAdd.cs" Line="37" Column="17" />
-      <File FileName="Ergo-Android-App/Dataservices/ContactDataService.cs" Line="53" Column="1" />
-      <File FileName="../../../../../../../Library/Frameworks/Mono.framework/Versions/5.2.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2001" Column="5" />
-      <File FileName="Ergo-Android-App/Dataservices/ContactDatabaseWrapper.cs" Line="30" Column="27" />
-      <File FileName="Ergo-Android-App/Activities/MainActivity.cs" Line="12" Column="9" />
-      <File FileName="Ergo-Android-App/Dataservices/AppDataStore.cs" Line="17" Column="61" />
-      <File FileName="Ergo-Android-App/Helper/Filehelper.cs" Line="8" Column="17" />
-      <File FileName="Ergo-Android-App/Activities/ContactActivity.cs" Line="26" Column="82" />
-      <File FileName="Ergo-Android-App/NetworkServices/NetworkService.cs" Line="40" Column="29" />
+      <File FileName="Ergo-Android-App/Activities/ContactAdd.cs" Line="55" Column="6" />
+      <File FileName="Ergo-Android-App/Dataservices/ContactDataService.cs" Line="25" Column="13" />
+      <File FileName="Ergo-Android-App/Dataservices/ContactDatabaseWrapper.cs" Line="23" Column="13" />
+      <File FileName="Ergo-Android-App/Activities/ContactActivity.cs" Line="2" Column="1" />
+      <File FileName="Ergo-Android-App/Activities/ContactDetailActivity.cs" Line="1" Column="1" />
+      <File FileName="Ergo-Android-App/Activities/MainActivity.cs" Line="18" Column="10" />
+      <File FileName="Ergo-Android-App/Activities/Menu.cs" Line="1" Column="1" />
+      <File FileName="Ergo-Android-App/Activities/MenuActivity.cs" Line="24" Column="1" />
+      <File FileName="Ergo-Android-App/Activities/LoginActivity.cs" Line="31" Column="53" />
+      <File FileName="Ergo-Android-App/Dataservices/OrderDatabaseWrapper.cs" Line="18" Column="1" />
+      <File FileName="Ergo-Android-App/Dataservices/OrderModel.cs" Line="19" Column="43" />
+      <File FileName="Ergo-Android-App/Dataservices/ContactModel.cs" Line="37" Column="1" />
+      <File FileName="Ergo-Android-App/Dataservices/AppDataStore.cs" Line="17" Column="90" />
+      <File FileName="Ergo-Android-App/Activities/OrdersOverview.cs" Line="1" Column="1" />
+      <File FileName="Ergo-Android-App/Activities/OrderOverviewActivity.cs" Line="27" Column="57" />
+      <File FileName="Ergo-Android-App/Activities/OrderSelectActivity.cs" Line="31" Column="13" />
+      <File FileName="Ergo-Android-App/Activities/OrderAddActivity.cs" Line="46" Column="145" />
+      <File FileName="Ergo-Android-App/Dataservices/ContactCreateDataService.cs" Line="6" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

@@ -83,6 +83,12 @@
     <Compile Include="Dataservices\ContactModel.cs" />
     <Compile Include="Helper\Filehelper.cs" />
     <Compile Include="NetworkServices\NetworkService.cs" />
+    <Compile Include="Activities\MenuActivity.cs" />
+    <Compile Include="Dataservices\OrderModel.cs" />
+    <Compile Include="Activities\OrderOverviewActivity.cs" />
+    <Compile Include="Activities\OrderSelectActivity.cs" />
+    <Compile Include="Activities\OrderAddActivity.cs" />
+    <Compile Include="Dataservices\ContactCreateDataService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -102,6 +108,10 @@
     <AndroidResource Include="Resources\layout\Contacts.axml" />
     <AndroidResource Include="Resources\layout\ContactAddDetail.axml" />
     <AndroidResource Include="Resources\layout\ContactDetail.axml" />
+    <AndroidResource Include="Resources\layout\Menu.axml" />
+    <AndroidResource Include="Resources\layout\OrderOverview.axml" />
+    <AndroidResource Include="Resources\layout\OrderDetail.axml" />
+    <AndroidResource Include="Resources\layout\CustomerSelect.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
