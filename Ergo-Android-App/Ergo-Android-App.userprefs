@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{BB548383-7C0C-4BAF-8573-EE45F385255F}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Ergo-Android-App/Activities/ContactAdd.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Ergo-Android-App/Activities/ContactAdd.cs" Line="55" Column="6" />
       <File FileName="Ergo-Android-App/Dataservices/ContactDataService.cs" Line="25" Column="13" />
@@ -17,7 +17,7 @@
       <File FileName="Ergo-Android-App/Activities/OrdersOverview.cs" Line="1" Column="1" />
       <File FileName="Ergo-Android-App/Activities/OrderOverviewActivity.cs" Line="27" Column="57" />
       <File FileName="Ergo-Android-App/Activities/OrderSelectActivity.cs" Line="31" Column="13" />
-      <File FileName="Ergo-Android-App/Activities/OrderAddActivity.cs" Line="46" Column="145" />
+      <File FileName="Ergo-Android-App/Activities/OrderAddActivity.cs" Line="52" Column="2" />
       <File FileName="Ergo-Android-App/Dataservices/ContactCreateDataService.cs" Line="6" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>

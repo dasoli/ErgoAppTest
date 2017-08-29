@@ -34,7 +34,6 @@ namespace ErgoAndroidApp.Activities
 			{
                 
 			};
-
         }
 
         protected override void OnResume()
@@ -47,10 +46,7 @@ namespace ErgoAndroidApp.Activities
                 JsonValue googleObject = GoogleNetworkService.TransformAdressToCoordinatesViaGoogle(ContactCreateDataService.currentSelectedContact).Result;
                 var location = googleObject["results"][0]["geometry"]["location"];
                 FindViewById<TextView>(Resource.Id.distanceFieldText).Text = string.Format("lat:{0} lon:{1}", location["lat"], location["lng"]);
-
             }
-                                    
         }
-
     }
 }

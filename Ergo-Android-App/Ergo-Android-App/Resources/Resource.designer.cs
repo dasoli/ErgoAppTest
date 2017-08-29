@@ -44,11 +44,11 @@ namespace ErgoAndroidApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f05000c
-			public const int button2 = 2131034124;
-			
 			// aapt resource value: 0x7f05000d
-			public const int button3 = 2131034125;
+			public const int button2 = 2131034125;
+			
+			// aapt resource value: 0x7f05000e
+			public const int button3 = 2131034126;
 			
 			// aapt resource value: 0x7f050005
 			public const int button_createContacts_geocode = 2131034117;
@@ -56,8 +56,11 @@ namespace ErgoAndroidApp
 			// aapt resource value: 0x7f050007
 			public const int button_create_contact = 2131034119;
 			
-			// aapt resource value: 0x7f050019
-			public const int chooseContactButton = 2131034137;
+			// aapt resource value: 0x7f05001a
+			public const int chooseContactButton = 2131034138;
+			
+			// aapt resource value: 0x7f05000a
+			public const int contactDetailDeleteButton = 2131034122;
 			
 			// aapt resource value: 0x7f050009
 			public const int contact_detail_button_showMaps = 2131034121;
@@ -65,17 +68,17 @@ namespace ErgoAndroidApp
 			// aapt resource value: 0x7f050008
 			public const int contact_detail_name = 2131034120;
 			
-			// aapt resource value: 0x7f05000e
-			public const int contact_list = 2131034126;
-			
 			// aapt resource value: 0x7f05000f
-			public const int contact_list_select = 2131034127;
+			public const int contact_list = 2131034127;
+			
+			// aapt resource value: 0x7f050010
+			public const int contact_list_select = 2131034128;
 			
 			// aapt resource value: 0x7f050006
 			public const int contacts_add_geocode_dates = 2131034118;
 			
-			// aapt resource value: 0x7f05000b
-			public const int contacts_create_contact = 2131034123;
+			// aapt resource value: 0x7f05000c
+			public const int contacts_create_contact = 2131034124;
 			
 			// aapt resource value: 0x7f050001
 			public const int contacts_input_city = 2131034113;
@@ -92,44 +95,44 @@ namespace ErgoAndroidApp
 			// aapt resource value: 0x7f050004
 			public const int contacts_input_zip = 2131034116;
 			
-			// aapt resource value: 0x7f05001a
-			public const int customerCreateButton = 2131034138;
+			// aapt resource value: 0x7f05001b
+			public const int customerCreateButton = 2131034139;
+			
+			// aapt resource value: 0x7f050019
+			public const int distanceFieldText = 2131034137;
 			
 			// aapt resource value: 0x7f050018
-			public const int distanceFieldText = 2131034136;
+			public const int editText1 = 2131034136;
 			
-			// aapt resource value: 0x7f050017
-			public const int editText1 = 2131034135;
-			
-			// aapt resource value: 0x7f05000a
-			public const int gridLayout1 = 2131034122;
-			
-			// aapt resource value: 0x7f05001b
-			public const int gridLayout2 = 2131034139;
-			
-			// aapt resource value: 0x7f050011
-			public const int input_password = 2131034129;
-			
-			// aapt resource value: 0x7f050010
-			public const int input_username = 2131034128;
-			
-			// aapt resource value: 0x7f050014
-			public const int linearLayout1 = 2131034132;
-			
-			// aapt resource value: 0x7f050012
-			public const int login_button = 2131034130;
-			
-			// aapt resource value: 0x7f050015
-			public const int menuContactsButton = 2131034133;
-			
-			// aapt resource value: 0x7f050016
-			public const int menuOrdersButton = 2131034134;
-			
-			// aapt resource value: 0x7f050013
-			public const int myButton = 2131034131;
+			// aapt resource value: 0x7f05000b
+			public const int gridLayout1 = 2131034123;
 			
 			// aapt resource value: 0x7f05001c
-			public const int ordersCreateButton = 2131034140;
+			public const int gridLayout2 = 2131034140;
+			
+			// aapt resource value: 0x7f050012
+			public const int input_password = 2131034130;
+			
+			// aapt resource value: 0x7f050011
+			public const int input_username = 2131034129;
+			
+			// aapt resource value: 0x7f050015
+			public const int linearLayout1 = 2131034133;
+			
+			// aapt resource value: 0x7f050013
+			public const int login_button = 2131034131;
+			
+			// aapt resource value: 0x7f050016
+			public const int menuContactsButton = 2131034134;
+			
+			// aapt resource value: 0x7f050017
+			public const int menuOrdersButton = 2131034135;
+			
+			// aapt resource value: 0x7f050014
+			public const int myButton = 2131034132;
+			
+			// aapt resource value: 0x7f05001d
+			public const int ordersCreateButton = 2131034141;
 			
 			static Id()
 			{

@@ -15,4 +15,9 @@
         android:layout_height="wrap_content"
         android:id="@+id/contact_detail_button_showMaps"
         android:text="Anzeigen in Maps" />
+    <Button
+        android:text="Löschen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactDetailDeleteButton" />
 </LinearLayout>
