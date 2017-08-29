@@ -12,11 +12,30 @@ namespace ErgoAndroidApp
                                     string _zip) 
         {
             ContactModel model = new ContactModel();
-            model.Name = _name;
-            model.Street = _street;
-            model.Housenumber = _housenumber;
-            model.City = _city;
-            model.Zip = _zip;
+
+            if (_name != null && _name != "")
+			{
+				model.Name = _name;
+			}
+            if(_street != null && _street != "") 
+            {
+               model.Street = _street; 
+            }
+            if (_housenumber != null && _housenumber != "")
+            {
+                model.Housenumber = _housenumber;
+            }
+            if (_street != null && _street != "")
+            {
+            }
+			if (_city != null && _city != "")
+			{
+                model.City = _city;
+			}
+			if (_zip != null && _zip != "")
+			{
+                model.Zip = _zip;
+			}
 
             return model;
         }

@@ -1,8 +1,10 @@
-﻿using Android.App;
+﻿using System.Json;
+using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Widget;
 using ErgoAndroidApp.Dataservices;
+using ErgoAndroidApp.NetworkServices;
 
 namespace ErgoAndroidApp.Activities
 {
@@ -21,7 +23,12 @@ namespace ErgoAndroidApp.Activities
 
 			FindViewById<Button>(Resource.Id.contact_detail_button_showMaps).Click += delegate
 			{
-				// start map activity
+				JsonValue googleObject = GoogleNetworkService.TransformAdressToCoordinatesViaGoogleAsync(this.contact).Result;
+				var location = googleObject["results"][0]["geometry"]["location"];
+                string locationFixed = string.Format("{0},{1}", location["lat"], location["lng"]);
+                JsonValue distanceObject = GoogleNetworkService.GetDistanceBetweenCoordsAsync(AppDataStore.currentPos, locationFixed).Result;
+                var value = distanceObject["rows"][0]["elements"][0]["distance"]["value"];
+                FindViewById<Button>(Resource.Id.contact_detail_button_showMaps).Text = (value / 1000).ToString();
 			};
 
 			FindViewById<Button>(Resource.Id.contactDetailDeleteButton).Click += delegate

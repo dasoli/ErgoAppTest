@@ -93,6 +93,21 @@ namespace ErgoAndroidApp.Dataservices
 			return database.Table<OrderModel>().Where(i => i.ID == id).FirstOrDefaultAsync();
 		}
 
+        public List<string> ConvertOrdersListToStringNames(List<OrderModel> _list)
+		{
+			List<string> contactNames = new List<string>();
+            if(_list.Count == 0) {
+                return contactNames;
+            }
+
+            foreach (OrderModel order in _list)
+			{
+                contactNames.Add(order.OrderName);
+			}
+
+			return contactNames;
+		}
+
 		public Task<int> SaveOrderAsync(OrderModel item)
 		{
 			if (item.ID != 0)

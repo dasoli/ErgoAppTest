@@ -12,11 +12,16 @@
         <Button
             android:id="@+id/ordersCreateButton"
             android:text="Auftrag erstellen" />
+        <TextView
+            android:text="Large Text"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/distanceTotal"
+            android:layout_marginLeft="47.5dp" />
     </GridLayout>
     <ListView
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/contact_list" />
+        android:id="@+id/orders_list" />
 </LinearLayout>

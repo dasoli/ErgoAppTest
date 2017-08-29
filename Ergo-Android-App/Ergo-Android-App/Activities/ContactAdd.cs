@@ -48,7 +48,7 @@ namespace ErgoAndroidApp.Activities
 				string city = FindViewById<EditText>(Resource.Id.contacts_input_city).Text;
 				string zip = FindViewById<EditText>(Resource.Id.contacts_input_zip).Text;
 
-                JsonValue googleObject = GoogleNetworkService.TransformAdressToCoordinatesViaGoogle(ContactModel.CreateContact("tester", street, housenumber, city, zip)).Result;
+                JsonValue googleObject = GoogleNetworkService.TransformAdressToCoordinatesViaGoogleAsync(ContactModel.CreateContact("tester", street, housenumber, city, zip)).Result;
 
                 if(googleObject != null) {
 					//Console.WriteLine(responseFromServer);

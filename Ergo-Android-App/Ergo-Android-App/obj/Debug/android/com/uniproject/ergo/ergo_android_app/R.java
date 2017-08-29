@@ -28,8 +28,8 @@ public final class R {
         public static final int contacts_input_name=0x7f050000;
         public static final int contacts_input_street=0x7f050002;
         public static final int contacts_input_zip=0x7f050004;
-        public static final int customerCreateButton=0x7f05001b;
         public static final int distanceFieldText=0x7f050019;
+        public static final int distanceTotal=0x7f05001e;
         public static final int editText1=0x7f050018;
         public static final int gridLayout1=0x7f05000b;
         public static final int gridLayout2=0x7f05001c;
@@ -40,7 +40,12 @@ public final class R {
         public static final int menuContactsButton=0x7f050016;
         public static final int menuOrdersButton=0x7f050017;
         public static final int myButton=0x7f050014;
+        public static final int orderCreateButton=0x7f05001b;
         public static final int ordersCreateButton=0x7f05001d;
+        public static final int orders_list=0x7f05001f;
+        public static final int textDistance=0x7f050021;
+        public static final int textName=0x7f050020;
+        public static final int textWhatDone=0x7f050022;
     }
     public static final class layout {
         public static final int contactadddetail=0x7f030000;
@@ -52,6 +57,7 @@ public final class R {
         public static final int menu=0x7f030006;
         public static final int orderdetail=0x7f030007;
         public static final int orderoverview=0x7f030008;
+        public static final int ordersuperdetail=0x7f030009;
     }
     public static final class mipmap {
         public static final int icon=0x7f020000;

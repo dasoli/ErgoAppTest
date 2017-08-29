@@ -36,7 +36,6 @@
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/bin/Debug/Newtonsoft.Json.xml
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/bin/Debug/SQLite-net.pdb
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/bin/Debug/SQLite-net.xml
-/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/Ergo-Android-App.csprojResolveAssemblyReference.cache
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/Ergo-Android-App.csproj.CoreCompileInputs.cache
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/Ergo-Android-App.dll
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/Ergo-Android-App.pdb
@@ -52,9 +51,10 @@
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/contacts.xml
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/contactadddetail.xml
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/contactdetail.xml
-/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/R.cs.flag
-/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/uploadflags.txt
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/menu.xml
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/orderoverview.xml
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/orderdetail.xml
 /Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/customerselect.xml
+/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/R.cs.flag
+/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/uploadflags.txt
+/Users/ofr/Documents/Development/Xamarin/ErgoAppTest/Ergo-Android-App/Ergo-Android-App/obj/Debug/res/layout/ordersuperdetail.xml

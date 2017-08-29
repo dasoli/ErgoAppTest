@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="..\packages\xamstore-xamarin.mobile.0.7.1\build\monoandroid\xamstore-xamarin.mobile.props" Condition="Exists('..\packages\xamstore-xamarin.mobile.0.7.1\build\monoandroid\xamstore-xamarin.mobile.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -85,10 +84,11 @@
     <Compile Include="NetworkServices\NetworkService.cs" />
     <Compile Include="Activities\MenuActivity.cs" />
     <Compile Include="Dataservices\OrderModel.cs" />
+    <Compile Include="Activities\OrderAddActivity.cs" />
     <Compile Include="Activities\OrderOverviewActivity.cs" />
     <Compile Include="Activities\OrderSelectActivity.cs" />
-    <Compile Include="Activities\OrderAddActivity.cs" />
     <Compile Include="Dataservices\ContactCreateDataService.cs" />
+    <Compile Include="Activities\OrderSuperDetailActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -112,6 +112,7 @@
     <AndroidResource Include="Resources\layout\OrderOverview.axml" />
     <AndroidResource Include="Resources\layout\OrderDetail.axml" />
     <AndroidResource Include="Resources\layout\CustomerSelect.axml" />
+    <AndroidResource Include="Resources\layout\OrderSuperDetail.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

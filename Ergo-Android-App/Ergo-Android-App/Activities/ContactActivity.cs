@@ -46,7 +46,6 @@ namespace ErgoAndroidApp.Activities
                                                                     Android.Resource.Layout.SimpleListItem1, 
                                                                     database.ConvertListToStringNames(database.GetItemsAsync().Result));
 
-            var results = database.ConvertListToStringNames(database.GetItemsAsync().Result);
             this.contactsList = FindViewById<ListView>(Resource.Id.contact_list);
 
             this.contactsList.Adapter = adapter;
